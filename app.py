@@ -11,7 +11,7 @@ st.title('シミュレーション・グラフアプリ')
 st.sidebar.header("パラメータ設定")
 frequency = st.sidebar.slider('周波数', 1.0, 10.0, 5.0)
 # 振幅を -2.0 〜 2.0 に固定
-amplitude = st.sidebar.slider('振幅', -2.0, 2.0, 1.0)
+amplitude = st.sidebar.slider('振幅', 0, 2.0, 1.0)
 
 # 3. 計算ロジック
 x = np.linspace(0, 10, 500)
