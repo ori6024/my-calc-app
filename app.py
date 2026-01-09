@@ -12,7 +12,7 @@ st.write("左上の「＞」ボタンから設定を変更できます")
 
 # サイドバーの設定
 frequency = st.sidebar.slider('周波数', 1.0, 10.0, 5.0)
-amplitude = st.sidebar.slider('振幅', 0.1, 2.0, 1.0)
+amplitude = st.sidebar.slider('振幅', -2.0, 2.0, 1.0)
 
 # 計算
 x = np.linspace(0, 10, 500)
